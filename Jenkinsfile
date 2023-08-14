@@ -1,13 +1,13 @@
-pipeline {
-  agent any
-  tools {
-  maven 'maven'
+#pipeline {
+  #agent any
+ # tools {
+  #maven 'maven'
   }
-    stages {
+   # stages {
 
-	stage ('Build')  {
-	    steps {
-            sh "mvn package"
+	#stage ('Build')  {
+	   # steps {
+           # sh "mvn package"
         }    
    }
 
